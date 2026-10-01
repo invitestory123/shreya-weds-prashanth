@@ -73,7 +73,7 @@ window.WEDDING_DATA = {
     ogImage: "./editable/assets/og-image.jpg",
     monogram: "./editable/assets/sp-monogram.png",
     crest: "./editable/assets/kolkata-hyderabad-crest.png",
-    seal: "./editable/assets/sp-monogram.png",
+    seal: "./editable/assets/invite-seal.png",
     openVideo: "./editable/assets/invite-open.mp4",
     lantern: "./editable/assets/lantern.png",
     heroPalace: "./editable/assets/hero-palace.jpg",
