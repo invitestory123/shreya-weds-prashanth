@@ -70,6 +70,7 @@ window.WEDDING_DATA = {
     signoff: "With all our love, Sreya & Prashanth",
   },
   images: {
+    ogImage: "./editable/assets/og-image.jpg",
     monogram: "./editable/assets/sp-monogram.png",
     crest: "./editable/assets/kolkata-hyderabad-crest.png",
     seal: "./editable/assets/sp-monogram.png",
