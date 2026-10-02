@@ -54,6 +54,20 @@ window.WEDDING_DATA = {
     venueAddress: "425/3, M.B Road Belgharia, Kolkata- 700049",
     closing: "We look forward to celebrating this joyous occasion with you",
   },
+  celebrationCard: {
+    title: "THE CELEBRATION AWAITS",
+    subtitle: "Find your way to the celebration",
+    venueName: "Sandhan Banquet",
+    venueAddress: "425/3, M.B. Road, Belgharia\nKolkata – 700049",
+    assistance: "For assistance: 9875369352 • 9830672475",
+    phone1: "9875369352",
+    phone2: "9830672475",
+  },
+  assistance: {
+    label: "For assistance:",
+    phones: ["9875369352", "9830672475"],
+    text: "For assistance: 9875369352 • 9830672475",
+  },
   footer: {
     line1: "Join us as two hearts, two families",
     line2: "and two cultures become one.",
@@ -65,6 +79,7 @@ window.WEDDING_DATA = {
     monogram: "./editable/assets/sp-monogram.png",
     crest: "./editable/assets/kolkata-hyderabad-crest.png",
     seal: "./editable/assets/invite-seal.png",
+    directionsQr: "./editable/assets/directions-qr.png",
     openVideo: "./editable/assets/invite-open.mp4",
     goldFlourish: "./editable/assets/gold-flourish.png",
     mapPlate: "./editable/assets/map-plate.jpg",
