@@ -68,3 +68,97 @@
 .mb-8 { margin-bottom: 2rem !important; }
 .mt-2 { margin-top: 0.5rem !important; }
 .mt-2\.5 { margin-top: 0.625rem !important; }
+
+/* Luxury Wedding Typography Override */
+.font-serif {
+  font-family: 'Cormorant Garamond', Garamond, Georgia, serif !important;
+}
+.font-display {
+  font-family: 'Marcellus', Georgia, serif !important;
+}
+.font-script {
+  font-family: 'Cormorant Garamond', Garamond, Georgia, serif !important;
+  font-style: italic !important;
+}
+.font-sans {
+  font-family: 'Karla', ui-sans-serif, system-ui, sans-serif !important;
+}
+
+.formal-card {
+  letter-spacing: normal;
+}
+.formal-card .parent-title {
+  font-family: 'Karla', ui-sans-serif, system-ui, sans-serif !important;
+  font-size: 0.68rem !important;
+  letter-spacing: 0.22em !important;
+  color: var(--gold-deep) !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+}
+.formal-card .parent-names {
+  font-family: 'Marcellus', Georgia, serif !important;
+  font-size: 0.88rem !important;
+  color: #241713 !important;
+  line-height: 1.5 !important;
+}
+.formal-card .parent-location {
+  font-family: 'Cormorant Garamond', Garamond, Georgia, serif !important;
+  font-size: 0.82rem !important;
+  color: #6A564C !important;
+  font-style: italic !important;
+  letter-spacing: 0.04em !important;
+}
+.formal-card .blessing-text {
+  font-family: 'Cormorant Garamond', Garamond, Georgia, serif !important;
+  font-size: 0.98rem !important;
+  color: #5C4B43 !important;
+  font-style: italic !important;
+  letter-spacing: 0.03em !important;
+}
+.formal-card .invitation-text {
+  font-family: 'Cormorant Garamond', Garamond, Georgia, serif !important;
+  font-size: 0.95rem !important;
+  color: #241713 !important;
+  line-height: 1.6 !important;
+}
+.formal-card .couple-name {
+  font-family: 'Marcellus', Georgia, serif !important;
+  font-size: 1.75rem !important;
+  color: #231613 !important;
+  letter-spacing: 0.16em !important;
+  font-weight: 400 !important;
+}
+.formal-card .couple-with {
+  font-family: 'Cormorant Garamond', Garamond, Georgia, serif !important;
+  font-size: 1.5rem !important;
+  font-style: italic !important;
+  color: #8A673B !important;
+}
+.formal-card .datetime-badge {
+  font-family: 'Karla', ui-sans-serif, system-ui, sans-serif !important;
+  font-size: 0.72rem !important;
+  letter-spacing: 0.24em !important;
+  font-weight: 600 !important;
+  color: var(--gold-deep) !important;
+  text-transform: uppercase !important;
+}
+.formal-card .venue-title {
+  font-family: 'Marcellus', Georgia, serif !important;
+  font-size: 1.35rem !important;
+  color: #231613 !important;
+  font-weight: 400 !important;
+}
+.formal-card .venue-address {
+  font-family: 'Cormorant Garamond', Garamond, Georgia, serif !important;
+  font-size: 0.88rem !important;
+  color: #5C4B43 !important;
+  letter-spacing: 0.03em !important;
+  line-height: 1.4 !important;
+}
+.formal-card .closing-text {
+  font-family: 'Cormorant Garamond', Garamond, Georgia, serif !important;
+  font-size: 0.88rem !important;
+  color: #4A382F !important;
+  font-style: italic !important;
+  letter-spacing: 0.02em !important;
+}
