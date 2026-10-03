@@ -21,3 +21,50 @@
   background-clip: text !important;
   color: transparent !important;
 }
+
+/* Ganesha Invocation Layout & Spacing */
+.ganesha-invocation-wrap {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  margin-bottom: 2rem !important;
+}
+.ganesha-invocation-img {
+  height: 2.75rem !important;
+  width: auto !important;
+  object-fit: contain !important;
+  margin-bottom: 1.125rem !important; /* 18px clearly visible space */
+  display: block !important;
+}
+.ganesha-invocation-shloka {
+  font-family: ui-sans-serif, system-ui, sans-serif !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.24em !important;
+  color: #241713 !important;
+  line-height: 1.6 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.5rem !important; /* 8px space to english blessing */
+}
+.ganesha-invocation-blessing {
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  font-size: 0.75rem !important;
+  color: #5C4B43 !important;
+  letter-spacing: 0.08em !important;
+  font-style: italic !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Tailwind utility fallbacks */
+.mb-1 { margin-bottom: 0.25rem !important; }
+.mb-2 { margin-bottom: 0.5rem !important; }
+.mb-3 { margin-bottom: 0.75rem !important; }
+.mb-3\.5 { margin-bottom: 0.875rem !important; }
+.mb-4 { margin-bottom: 1rem !important; }
+.mb-5 { margin-bottom: 1.25rem !important; }
+.mb-6 { margin-bottom: 1.5rem !important; }
+.mb-8 { margin-bottom: 2rem !important; }
+.mt-2 { margin-top: 0.5rem !important; }
+.mt-2\.5 { margin-top: 0.625rem !important; }
