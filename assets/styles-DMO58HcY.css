@@ -121,46 +121,134 @@
   text-transform: uppercase !important;
 }
 
+/* Hero Monogram: reduced by ~15-20% for balanced breathing room */
+.hero-monogram-img {
+  height: 3.5rem !important;
+  width: auto !important;
+  max-width: 75% !important;
+  object-fit: contain !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+@media (min-width: 640px) {
+  .hero-monogram-img {
+    height: 4.25rem !important;
+  }
+}
+@media (min-width: 768px) {
+  .hero-monogram-img {
+    height: 4.75rem !important;
+  }
+}
+
+/* Indic Script Banner: Prominent & Crisp Readable */
+.hero-cultural-kicker {
+  font-family: "Noto Serif Bengali", "Noto Serif Telugu", "Cormorant Garamond", serif !important;
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.06em !important;
+  color: #52101F !important;
+  line-height: 1.6 !important;
+  display: block !important;
+  margin-top: 0.65rem !important;
+  margin-bottom: 0.5rem !important;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+}
+@media (min-width: 640px) {
+  .hero-cultural-kicker {
+    font-size: 1.22rem !important;
+    letter-spacing: 0.08em !important;
+  }
+}
+
+/* Victoria Memorial + Charminar Crest: ~10-15% Larger */
+.heritage-crest-wrap {
+  width: 100% !important;
+  max-width: 44rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.heritage-crest-img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
 .formal-card {
   letter-spacing: normal;
 }
 .formal-card .card-heading {
   font-family: 'Marcellus', Georgia, serif !important;
-  font-size: 1.35rem !important;
-  letter-spacing: 0.18em !important;
+  font-size: 1.22rem !important;
+  letter-spacing: 0.16em !important;
   color: #3E2B20 !important;
   text-transform: uppercase !important;
   font-weight: 400 !important;
+  text-wrap: balance;
+}
+@media (min-width: 640px) {
+  .formal-card .card-heading {
+    font-size: 1.35rem !important;
+    letter-spacing: 0.18em !important;
+  }
+}
+.formal-card .parents-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2.75rem !important; /* 2 free lines of space after Mrs. Padma Chilukuri */
+  text-align: center;
+}
+@media (min-width: 640px) {
+  .formal-card .parents-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
 }
 .formal-card .parent-title {
   font-family: 'Marcellus', Georgia, serif !important;
   font-size: 1.25rem !important;
-  letter-spacing: 0.02em !important;
+  letter-spacing: 0.04em !important;
   color: #3E2B20 !important;
   font-weight: 400 !important;
   text-transform: none !important;
+  margin-bottom: 0.4rem !important;
 }
 .formal-card .parent-names {
   font-family: 'Cormorant Garamond', Garamond, Georgia, serif !important;
-  font-size: 1.05rem !important;
+  font-size: 1.08rem !important;
   color: #3E2B20 !important;
   font-weight: 500 !important;
   line-height: 1.45 !important;
+  margin-top: 0.2rem !important;
+  margin-bottom: 0.2rem !important;
 }
 .formal-card .parent-location {
   font-family: 'Cormorant Garamond', Garamond, Georgia, serif !important;
-  font-size: 0.95rem !important;
+  font-size: 0.98rem !important;
   color: #554135 !important;
   font-style: italic !important;
   letter-spacing: 0.02em !important;
+  margin-top: 0.25rem !important;
+}
+.formal-space-divider {
+  display: block;
+  height: 2.75rem; /* Exactly 2 free blank lines */
+  width: 100%;
 }
 .formal-card .blessing-text {
   font-family: 'Marcellus', Georgia, serif !important;
-  font-size: 1.1rem !important;
+  font-size: 1.12rem !important;
   color: #3E2B20 !important;
   font-style: normal !important;
   letter-spacing: 0.02em !important;
   font-weight: 400 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.5rem !important;
 }
 .formal-card .invitation-text {
   font-family: 'Cormorant Garamond', Garamond, Georgia, serif !important;
@@ -168,6 +256,9 @@
   color: #3E2B20 !important;
   line-height: 1.55 !important;
   font-weight: 400 !important;
+  text-wrap: balance;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .formal-card .couple-name,
 .couple-name {

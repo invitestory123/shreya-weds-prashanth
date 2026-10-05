@@ -34,13 +34,13 @@ window.WEDDING_DATA = {
   },
   formalInvitation: {
     herRoots: {
-      title: "Bride:",
+      title: "Her Roots",
       father: "Late Mr. Sekhar Bhowmick",
       mother: "Mrs. Sumita Bhowmick",
       location: "Belgharia, Kolkata",
     },
     hisRoots: {
-      title: "Groom:",
+      title: "His Roots",
       father: "Mr. Satyanarayana Chilukuri",
       mother: "Mrs. Padma Chilukuri",
       location: "",
