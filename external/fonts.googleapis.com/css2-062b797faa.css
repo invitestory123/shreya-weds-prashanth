@@ -47,3 +47,31 @@
   font-display: swap;
   src: url(../fonts.gstatic.com/s/marcellus/v14/wEO_EBrOk8hQLDvIAF8FVPAN3Eo.woff2) format('woff2');
 }
+@font-face {
+  font-family: 'Cinzel Decorative';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts.gstatic.com/s/cinzeldecorative/v19/cinzel-decorative-400.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Cinzel Decorative';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts.gstatic.com/s/cinzeldecorative/v19/cinzel-decorative-700.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Cinzel Decorative';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts.gstatic.com/s/cinzeldecorative/v19/cinzel-decorative-900.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Almendra SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts.gstatic.com/s/almendrasc/v25/almendra-sc-400.woff2) format('woff2');
+}
