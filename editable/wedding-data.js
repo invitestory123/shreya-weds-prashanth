@@ -42,7 +42,7 @@ window.WEDDING_DATA = {
     hisRoots: {
       title: "His Roots",
       father: "Mr. Rajagoud Medagoni",
-      mother: "Mrs. Bhagta Lakshmi Medagoni",
+      mother: "Mrs. Bhagya Lakshmi Medagoni",
       location: "Mancherial, Hyderabad",
     },
     blessing: "With the blessings of God,",
