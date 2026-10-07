@@ -123,7 +123,7 @@
 
 /* Hero Monogram: enlarged to fill the hero card */
 .hero-monogram-img {
-  height: 6.5rem !important;
+  height: 13rem !important;
   width: auto !important;
   max-width: 90% !important;
   object-fit: contain !important;
@@ -132,12 +132,12 @@
 }
 @media (min-width: 640px) {
   .hero-monogram-img {
-    height: 8.5rem !important;
+    height: 17rem !important;
   }
 }
 @media (min-width: 768px) {
   .hero-monogram-img {
-    height: 9.5rem !important;
+    height: 19rem !important;
   }
 }
 
