@@ -76,7 +76,8 @@ window.WEDDING_DATA = {
     quote: "“Join us as two hearts, two families and two cultures become one.”",
     presenceLine: "“Your presence will make our celebration complete.”",
     host: "Mrs. Sumita Bhowmick",
-    date: "15 · 03 · 2027",
+    // Set to e.g. "15 · 03 · 2027" to show a date under the host name; "" hides it.
+    date: "",
   },
   images: {
     ogImage: "./editable/assets/og-image.jpg",
