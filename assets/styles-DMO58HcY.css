@@ -121,23 +121,23 @@
   text-transform: uppercase !important;
 }
 
-/* Hero Monogram: reduced by ~15-20% for balanced breathing room */
+/* Hero Monogram: enlarged to fill the hero card */
 .hero-monogram-img {
-  height: 3.5rem !important;
+  height: 6.5rem !important;
   width: auto !important;
-  max-width: 75% !important;
+  max-width: 90% !important;
   object-fit: contain !important;
   display: block !important;
   margin: 0 auto !important;
 }
 @media (min-width: 640px) {
   .hero-monogram-img {
-    height: 4.25rem !important;
+    height: 8.5rem !important;
   }
 }
 @media (min-width: 768px) {
   .hero-monogram-img {
-    height: 4.75rem !important;
+    height: 9.5rem !important;
   }
 }
 
