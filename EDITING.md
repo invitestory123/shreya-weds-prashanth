@@ -54,6 +54,29 @@ Replace files in `editable/assets/` or update paths in `wedding-data.js`:
 - `mapPlate`: Illustrated map illustration
 - `sceneDancing`, `sceneWalking`, etc.: Illustrated chapter scenes
 
+### 8. Social Preview (og:image, og:title, og:logo)
+
+Meta tags live in the `<head>` of `index.html`:
+- `og:title` / `twitter:title`: `Sreya & Prashanth — Two Cities, One Heart`
+- `og:description`: one-line invitation summary (couple, date, venue)
+- `og:url` / `canonical`: `https://sreya-weds-prashanth.invitestory.in/`
+- `og:logo`: S&P monogram (`editable/assets/sp-monogram.png`)
+- `og:image`: `editable/assets/og-image.jpg` (1200×630, absolute URL)
+
+The OG card itself is hand-built in `editable/og-source.html` (ivory + gold, real
+site fonts, S&P monogram, Victoria Memorial/Charminar crest). To regenerate after
+a text change, render it headlessly and overwrite the jpg:
+
+```
+chrome --headless=new --disable-gpu --hide-scrollbars --force-device-scale-factor=2 \
+  --window-size=1200,630 --virtual-time-budget=9000 --screenshot=og.png \
+  "file:///C:/invitestory/week5/shreya-weds-prashanth/editable/og-source.html"
+```
+
+Then downscale the PNG to 1200×630 and save as `editable/assets/og-image.jpg`
+(quality ~93, ~115 KB). Non-ASCII text in `og-source.html` must be written as
+HTML entities (`&#183;`, `&#2405;` ...) so the render never depends on charset.
+
 ---
 
 ## Rules for Future Agents
