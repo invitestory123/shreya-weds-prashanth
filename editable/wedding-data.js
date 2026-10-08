@@ -79,6 +79,12 @@ window.WEDDING_DATA = {
     // Set to e.g. "15 · 03 · 2027" to show a date under the host name; "" hides it.
     date: "",
   },
+  music: {
+    track: "./editable/assets/nsbg1.mpeg",
+    autoplay: true,
+  },
+  audio: "./editable/assets/nsbg1.mpeg",
+  bgMusic: "./editable/assets/nsbg1.mpeg",
   images: {
     ogImage: "./editable/assets/og-image.jpg",
     ganesha: "./editable/assets/ganesha.png",
@@ -87,5 +93,6 @@ window.WEDDING_DATA = {
     seal: "./editable/assets/invite-seal.png",
     openVideo: "./editable/assets/invite-open.mp4",
     goldFlourish: "./editable/assets/gold-flourish.png",
+    bgMusic: "./editable/assets/nsbg1.mpeg",
   },
 };

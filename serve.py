@@ -8,6 +8,14 @@ class NoCacheThreadingHTTPServer(socketserver.ThreadingTCPServer):
     daemon_threads = True
 
 class CustomHandler(http.server.SimpleHTTPRequestHandler):
+    extensions_map = http.server.SimpleHTTPRequestHandler.extensions_map.copy()
+    extensions_map.update({
+        '.mpeg': 'audio/mpeg',
+        '.mp3': 'audio/mpeg',
+        '.js': 'application/javascript',
+        '.css': 'text/css',
+    })
+
     def end_headers(self):
         # Prevent browser aggressive caching of dev files
         self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')

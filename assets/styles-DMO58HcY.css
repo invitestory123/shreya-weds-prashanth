@@ -316,3 +316,74 @@
 .formal-card .grid > div {
   border: none !important;
 }
+
+/* Floating Luxury Music Player Button */
+.wedding-music-toggle {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 105;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: rgba(253, 248, 239, 0.92);
+  border: 1.5px solid rgba(180, 140, 85, 0.55);
+  box-shadow: 0 4px 16px rgba(35, 22, 19, 0.12), 0 0 12px rgba(180, 140, 85, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+  padding: 0;
+}
+.wedding-music-toggle:hover {
+  transform: scale(1.08);
+  border-color: rgba(180, 140, 85, 0.9);
+  box-shadow: 0 6px 20px rgba(35, 22, 19, 0.18), 0 0 16px rgba(180, 140, 85, 0.35);
+}
+.wedding-music-toggle:active {
+  transform: scale(0.92);
+}
+.music-disc-icon {
+  width: 22px;
+  height: 22px;
+  color: #8A673B;
+  transition: transform 0.3s ease;
+}
+.wedding-music-toggle.playing .music-disc-icon {
+  animation: spin-disc 4s linear infinite;
+}
+@keyframes spin-disc {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.music-mute-slash {
+  display: none;
+  position: absolute;
+  width: 26px;
+  height: 2px;
+  background: #8A673B;
+  transform: rotate(45deg);
+  border-radius: 2px;
+}
+.wedding-music-toggle.paused .music-mute-slash {
+  display: block;
+}
+@media (max-width: 640px) {
+  .wedding-music-toggle {
+    bottom: 18px;
+    left: 18px;
+    width: 42px;
+    height: 42px;
+  }
+  .music-disc-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .music-mute-slash {
+    width: 22px;
+  }
+}

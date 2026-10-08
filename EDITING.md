@@ -45,7 +45,7 @@ Edit `venue` in `editable/wedding-data.js`:
 Edit `footer` in `editable/wedding-data.js`:
 - `line1`, `line2`, and `signoff` text
 
-### 7. Images & Video
+### 7. Images, Video & Background Music
 Replace files in `editable/assets/` or update paths in `wedding-data.js`:
 - `seal`: Wax seal artwork (`invite-seal.png`)
 - `openVideo`: Seal opening animation video (`invite-open.mp4`)
@@ -53,6 +53,7 @@ Replace files in `editable/assets/` or update paths in `wedding-data.js`:
 - `heroPalace` & `gardenCourtyard`: Venue background artwork
 - `mapPlate`: Illustrated map illustration
 - `sceneDancing`, `sceneWalking`, etc.: Illustrated chapter scenes
+- `music.track`: Background music (`editable/assets/nsbg1.mpeg` or `bg-music.mp3`)
 
 ### 8. Social Preview (og:image, og:title, og:logo)
 
